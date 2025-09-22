@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Template</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<!-- Toggle light-page ↔ dark-page -->
+
+<body class="light-page">
+
+    <!-- Navbar gets added here -->
+    <div id="nav-placeholder"></div>
+
+    <!-- Main content -->
+    <main class="container py-4">
+        <h1 class="mb-2 text-center" class="mb-2">Rachel Arnold</h1> <!--Heading of Page, centered text-->
+        <p> </p> <!--Adds space-->
+
+        <!-- Box -->
+        <div class="box mb-4">
+            <!--<h3 class="h5">Plain Box</h3>-->  <!--This box allows me to make my summary pop more-->
+            <p class="mb-0">Hi, I'm Rachel, a computer science major at MSU Denver, who enjoys learning, and loves tinkering with new projects. Recently, I am working on hosting a jelly fin server on a raspberry pi. Outside of computer science, I enjoy rock climbing, working with my hands, and playing video games.</p>
+            <!--<p></p>-->
+            <!--<a href="#">Read more</a>-->
+        </div>
+
+        <!-- Hero -->
+        <section class="p-5 mb-4 bg-body-tertiary rounded-3">
+            <h2 class="display-6 mb-3">Education</h2>
+            <h6>Metropolitan State University of Denver</h6>
+            <p>Pursuing a Bachelor’s in Computer Science, expected graduation 2029</p>
+            <a class="btn btn-primary" href="https://www.msudenver.edu/computer-sciences/computer-science-major-bs/">Computer Science at MSU Denver</a>
+            <p></p>
+            <h6>Arapahoe High School</h6>
+            <p>High School Diploma, August 2021 to May 2025</p>
+        </section>
+
+
+
+        <!-- Card -->
+        <div class="card shadow-sm mb-4" style="max-width: 40rem;">
+            <div class="card-body">
+                <h4 class="card-title h5">Card Title</h4>
+                <p class="card-text">Cards pick up the surface/background and text from the theme.</p>
+                <a class="btn btn-primary" href="#">Card Action</a>
+            </div>
+        </div>
+
+        <!-- List group -->
+        <ul class="list-group" style="max-width: 28rem;">
+            <li class="list-group-item">First item</li>
+            <li class="list-group-item">Second item</li>
+            <li class="list-group-item">Third item</li>
+        </ul>
+    </main>
+
+
+
+
+    <script>
+        // Load only the #site-nav element
+        $("#nav-placeholder").load("navbar.html #site-nav");
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
