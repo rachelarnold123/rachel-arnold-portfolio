@@ -1,2 +1,2 @@
-# rachel-arnold-portfolio
+# Rachel's Portfolio
 Personal Portfolio with projects and experience
